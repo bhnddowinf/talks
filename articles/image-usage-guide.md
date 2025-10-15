@@ -1,5 +1,15 @@
 # 📸 圖片使用指南
 
+
+
+<div class="image-grid">
+  <img src="images/001.jpg" alt="圖片1">
+  <img src="images/001.jpg" alt="圖片2">
+  <img src="images/001.jpg" alt="圖片3">
+</div>
+
+![圖片描述](images/001.jpg)
+
 這篇文章展示如何在你的 GitHub Pages 網站中使用圖片。
 
 ## 🖼️ 基本圖片語法
