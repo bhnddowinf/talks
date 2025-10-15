@@ -1,6 +1,13 @@
 {
   "articles": [
-
+    {
+      "id": "2025-10-15-02",
+      "file": "2025-10-15-02.md",
+      "title": "ROG Ally X（又稱 ROG XBOX ALLY X）與 Steam Deck OLED 的詳細中文比較與分析",
+      "date": "2025-10-12",
+      "tags": ["遊戲", "硬體"],
+      "excerpt": "ROG Ally X（又稱 ROG XBOX ALLY X）與 Steam Deck OLED 的詳細中文比較與分析"
+    },
     {
       "id": "2025-10-15-01",
       "file": "2025-10-15-01.md",
