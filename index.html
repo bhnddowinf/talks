@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文章記錄 - GitHub Pages</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="site-title">
+                <i class="fas fa-book"></i>
+                文章記錄
+            </h1>
+            <p class="site-subtitle">記錄學習與思考的點點滴滴</p>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link active">首頁</a></li>
+                <li><a href="#articles" class="nav-link">文章列表</a></li>
+                <li><a href="#about" class="nav-link">關於</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <!-- 首頁區域 -->
+            <section id="home" class="section active">
+                <div class="welcome">
+                    <h2>歡迎來到我的文章記錄</h2>
+                    <p>這裡記錄了我的學習筆記、技術分享和思考感悟。每一篇文章都是我成長路上的足跡。</p>
+                </div>
+                
+                <div class="stats">
+                    <div class="stat-item">
+                        <i class="fas fa-file-alt"></i>
+                        <span class="stat-number" id="article-count">0</span>
+                        <span class="stat-label">篇文章</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-tags"></i>
+                        <span class="stat-number" id="tag-count">0</span>
+                        <span class="stat-label">個標籤</span>
+                    </div>
+                </div>
+
+                <div class="recent-articles">
+                    <h3>最新文章</h3>
+                    <div id="recent-articles-list" class="article-grid">
+                        <!-- 動態載入最新文章 -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- 文章列表區域 -->
+            <section id="articles" class="section">
+                <div class="articles-header">
+                    <h2>所有文章</h2>
+                    <div class="filter-controls">
+                        <select id="tag-filter" class="filter-select">
+                            <option value="">所有標籤</option>
+                        </select>
+                        <input type="text" id="search-input" placeholder="搜尋文章..." class="search-input">
+                    </div>
+                </div>
+                
+                <div id="articles-list" class="article-grid">
+                    <!-- 動態載入文章列表 -->
+                </div>
+            </section>
+
+            <!-- 關於區域 -->
+            <section id="about" class="section">
+                <div class="about-content">
+                    <h2>關於這個網站</h2>
+                    <p>這是一個使用 GitHub Pages 搭建的個人文章記錄網站。所有文章都使用 Markdown 格式撰寫，支持語法高亮和響應式設計。</p>
+                    
+                    <h3>技術特色</h3>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> 純 HTML/CSS/JavaScript 實現</li>
+                        <li><i class="fas fa-check"></i> Markdown 文章支持</li>
+                        <li><i class="fas fa-check"></i> 響應式設計</li>
+                        <li><i class="fas fa-check"></i> 文章分類和標籤</li>
+                        <li><i class="fas fa-check"></i> 搜尋功能</li>
+                        <li><i class="fas fa-check"></i> 語法高亮</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- 文章詳情模態框 -->
+    <div id="article-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="article-content"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 文章記錄. 使用 GitHub Pages 搭建.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
