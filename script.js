@@ -4,14 +4,15 @@ let currentSection = 'home';
 
 // 初始化應用
 document.addEventListener('DOMContentLoaded', function() {
-    loadArticles();
-    setupNavigation();
-    setupSearch();
-    setupModal();
-    updateStats();
-    displayRecentArticles();
-    displayAllArticles();
-    populateTagFilter();
+    loadArticles().then(() => {
+        setupNavigation();
+        setupSearch();
+        setupModal();
+        updateStats();
+        displayRecentArticles();
+        displayAllArticles();
+        populateTagFilter();
+    });
 });
 
 // 載入文章數據
@@ -493,6 +494,7 @@ npx husky add .husky/pre-commit "npm run lint"
         console.error('載入文章失敗:', error);
         articles = [];
     }
+    return Promise.resolve();
 }
 
 // 設置導航
