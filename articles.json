@@ -16,43 +16,11 @@
       "tags": ["youtube", "盲點", ""],
       "excerpt": "EP196 | 自我成長的騙局：買一堆課只是在騙自己 ft. 大人學 Joe"
     },
-    {
-      "id": "getting-started",
-      "file": "getting-started.md",
-      "title": "開始使用 GitHub Pages",
-      "date": "2024-01-15",
-      "tags": ["GitHub", "教程", "網頁開發"],
-      "excerpt": "學習如何使用 GitHub Pages 來部署靜態網站，這是一個簡單而強大的免費託管服務。"
-    },
-    {
-      "id": "markdown-guide",
-      "file": "markdown-guide.md",
-      "title": "Markdown 寫作指南",
-      "date": "2024-01-20",
-      "tags": ["Markdown", "寫作", "文檔"],
-      "excerpt": "Markdown 是一種輕量級標記語言，讓你可以用簡單的語法來格式化文本。"
-    },
-    {
-      "id": "web-development-tips",
-      "file": "web-development-tips.md",
-      "title": "網頁開發實用技巧",
-      "date": "2024-01-25",
-      "tags": ["網頁開發", "技巧", "前端"],
-      "excerpt": "分享一些在網頁開發過程中學到的實用技巧和最佳實踐。"
-    },
-    {
-      "id": "ai-era-programming",
-      "file": "ai-era-programming.md",
-      "title": "AI 時代的程式設計思維",
-      "date": "2024-01-30",
-      "tags": ["AI", "程式設計", "思考"],
-      "excerpt": "在 AI 時代，程式設計師需要重新思考自己的角色和價值。這篇文章探討了如何適應新的技術環境。"
-    },
-    {
+     {
       "id": "image-usage-guide",
       "file": "image-usage-guide.md",
       "title": "圖片使用指南",
-      "date": "2024-02-01",
+      "date": "2025-10-15",
       "tags": ["圖片", "教程", "Markdown"],
       "excerpt": "學習如何在你的 GitHub Pages 網站中使用圖片，包括基本語法、最佳實踐和進階用法。"
     }
