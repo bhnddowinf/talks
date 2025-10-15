@@ -31,6 +31,14 @@
       "date": "2024-01-30",
       "tags": ["AI", "程式設計", "思考"],
       "excerpt": "在 AI 時代，程式設計師需要重新思考自己的角色和價值。這篇文章探討了如何適應新的技術環境。"
+    },
+    {
+      "id": "image-usage-guide",
+      "file": "image-usage-guide.md",
+      "title": "圖片使用指南",
+      "date": "2024-02-01",
+      "tags": ["圖片", "教程", "Markdown"],
+      "excerpt": "學習如何在你的 GitHub Pages 網站中使用圖片，包括基本語法、最佳實踐和進階用法。"
     }
   ]
 }
